@@ -1,0 +1,77 @@
+.background{
+    background-color: black;
+    height:106vh;
+    width:100vw;
+    /* height:100vh;
+    width:100%; */
+}
+
+.Home-container{
+    color: rgb(236, 197, 40);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: -5%;
+   text-decoration: underline;
+    
+}
+
+.txtfield{
+    color:white;
+    margin-top: -10%;
+    margin-left: 30%;
+    font-size: medium;
+    border: 2px solid white;
+    padding: 2rem 5rem;
+    margin-right: 20%; 
+   
+}
+
+.form{
+    height:5rem;
+    width: 20rem;
+    padding-bottom: 5rem;
+    margin-left: 40%;
+}
+
+.input-box{
+    margin-left: 42%;
+    height: 2rem;
+    width:20rem;
+}
+
+.btn{
+   margin-top: 10% !important;
+   margin-left: 60% !important;
+   margin-bottom: 20%;
+   height: 4rem !important;
+    width: 11rem;
+    border-radius: 3rem !important ;
+   cursor: pointer;
+  
+}
+
+.li-txt{
+    padding:1rem;
+}
+
+@media screen and (min-width: 390px) {
+    .background{
+       height:153vh;
+    }    
+}
+
+@media screen and (min-width: 1024px) {
+    .background {
+        height:115vh;
+    }    
+}
+
+/* @media screen and (min-width: 1280px) {
+    .background{
+       
+    }    
+} */
